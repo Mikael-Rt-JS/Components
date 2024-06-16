@@ -1,0 +1,48 @@
+:root{
+  --body-bcg: #000;
+  --body-color: #fff;
+
+  /* ==================================== */
+  /* FAQ`s page */
+    /* .s_faqs */
+  --s_faqs-t-columns: minmax(10px,240px) 1fr minmax(10px,240px);
+  --s_faqs-t-rows: 90px 1fr;
+  --s_faqs-gap: 20px;
+    /* .s_faqs 1100px*/
+    --s_faqs-t-col1100: minmax(10px,120px) 1fr minmax(10px,120px);
+    --s_faqs-t-col990: minmax(10px,60px) 1fr minmax(10px,60px);
+    --s_faqs-t-col660: minmax(10px,30px) 1fr minmax(10px,30px);
+    --s_faqs-t-row660: auto 1fr;
+    --s_faqs-t-col430: 10px 1fr 10px;
+    --s_faqs-gap430: 5px;
+    --s_faqs-t-col210: 1fr;
+
+  
+    /* .faqs_main */
+  --faqs_main-bcg: #393838;
+  /* #767474 */
+  --faqs_main-color: #faf5f5;
+  --faqs_main-padding: 20px 10px;
+  --faqs_main-height: auto;
+  --faqs_main-overflowY: none;
+    
+  /* .faqs_main-h1 */
+  --faqs_main-h1fs: 30px;
+  --faqs_main-mrgbotom: 20px;
+    /* .s_faqs 660px*/
+    --faqs_main-h1fs660: 20px;
+    --faqs_main-h1fs315: 16px;
+      
+    /* .faqs_main .details */
+  --faqs_details-padding: 6px 0px;
+  --faqs_details-bord-radius: none;
+  
+    /* .faqs_main summary */
+  --faqs_summary-bcg: #4b4949;
+  --faqs_summary-color: inherite;
+  --faqs_summary-padding: 15px 20px;
+  --faqs_summary-bord-radius: 4px;
+
+  /* .faqs_main .details_in */
+  --faqs_details_in-padding: 10px;
+}
