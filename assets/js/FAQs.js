@@ -1,4 +1,4 @@
-class Faqs{
+class FAQs{
   static add_detailsDefault(detailsData,id_addDetails){
     let addDetailsEl=document.querySelector(id_addDetails);
     addDetailsEl.innerHTML='';
@@ -62,4 +62,4 @@ let detailsData=[
     answerRU: "Hevo Data — это конвейер данных без кода, который предлагает полностью управляемую платформу без кода для настройки интеграции данных из MySQL и более 150 источников данных (включая более 50 бесплатных источников данных) и позволяет напрямую загружать данные в хранилище данных или пункт назначения по вашему выбору. Его отказоустойчивая архитектура гарантирует безопасность и согласованность ваших данных."
   }
 ]
-Faqs.add_detailsDefault(detailsData,'#add_details');
+FAQs.add_detailsDefault(detailsData,'#add_details');
